@@ -1,1 +1,1 @@
-# portfolio-VINICIUS-LEME
+Esse portfolio foi criado com o objetivo de demonstrar minhas habilidades como programador e desenvolvedor e demonstrar meu conhecimento em tecnologia da informação, que são vitais para a área da minha graduação, tecnologia em defesa cibernética.
