@@ -35,8 +35,31 @@ programa
 							escreva("A área do retangulo é: ", area3)
 							pare
 						}enquanto(opcao==3)
-                senao se(opcao>3){
-											  escreva("Número inválido")
-								                 }
-	}
+						senao se(opcao==4)
+							faca{
+								escreva("Informe a diagonal maior: ")
+								leia(diagonalmaior)
+								escreva("Informe a diagonal menor: ")
+								leia(diagonalmenor)
+								area4=(diagonalmaior*diagonalmenor)/2
+								escreva("A área do losângulo é: ", area4)
+								pare
+								}enquanto(opcao==4)
+									senao se(opcao==5)
+									faca{
+										escreva("Informe a base maior: ")
+										leia(basemaior)
+										escreva("Informe a base menor: ")
+										leia(basemenor)
+										escreva("Informe a altura: ")
+										leia(altura3)
+										area5=((basemaior-basemenor)*altura3)/2
+										escreva("A área do trapézio é: ", area5)
+										pare
+										}enquanto(opcao==5)
+										senao se(opcao>5 ou opcao<1)
+											{
+												escreva("Número inválido")
+											}
+	}	
 }
